@@ -14,14 +14,16 @@ $(call inherit-product, device/xiaomi/vermeer/device.mk)
 # Inherit from common lineage configuration
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Rising Flags
-RISING_MAINTAINER := Lunark :3 x Erin_Max
+# Lunaris Flags
 TARGET_ENABLE_BLUR := true
 WITH_GMS := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
-TARGET_HAS_UDFPS := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_CORE_GAPPS := true
+TARGET_CUSTOM_UDFPS := true
+WITH_BCR := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_OPTIMIZED_DEXOPT := true
+PRODUCT_NO_CAMERA := false
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 
 PRODUCT_DEVICE := vermeer
 PRODUCT_NAME := lineage_vermeer
@@ -31,7 +33,15 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/tony/releasekey
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildFingerprint=POCO/vermeer_global/vermeer:16/BP2A.250605.031.A3/OS3.0.5.0.WNKMIXM:user/release-keys \
-    RisingChipset="Snapdragon® 8 Gen 2" \
-    RisingMaintainer="Lunark :3 x Erin_Max"
+    BuildFingerprint=POCO/vermeer_global/vermeer:16/BP2A.250605.031.A3/OS3.0.5.0.WNKMIXM:user/release-keys
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.brand=POCO \
+    ro.product.model=POCO F6 Pro \
+    ro.product.device=vermeer \
+    ro.product.name=lineage_vermeer \
+    ro.product.manufacturer=Xiaomi \
+    net.bt.name=POCO F6 Pro

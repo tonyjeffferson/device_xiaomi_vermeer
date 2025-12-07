@@ -22,6 +22,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     IFAAService
 
+# MatLog
+PRODUCT_PACKAGES += \
+    MatLog
+
 # Overlay
 PRODUCT_PACKAGES += \
     ApertureResVermeer \

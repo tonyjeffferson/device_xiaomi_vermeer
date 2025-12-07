@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="wifi_do_not_validate_eap_server_warning">Nenhum certificado foi especificado. Sua conexão pode não ser segura.</string>
+    <string name="pulse_on_new_tracks_title">Aviso de música na Tela Ambiente</string>
+    <string name="pulse_on_new_tracks_summary">Mostrar informações da música na Tela Ambiente quando a faixa mudar</string>
+    <string name="doze_on_charge_title">Exibir a Tela Ambiente durante o carregamento</string>
+    <string name="doze_on_charge_summary">Mostrar informações na Tela Ambiente enquanto o dispositivo carrega</string>
+    <string name="back_height_low_label">Tela inteira</string>
+    <string name="back_height_summary">Define a área da borda da tela em que o gesto Voltar pode ser iniciado</string>
+    <string name="app_lock_notifications_summary">O conteúdo das notificações dos apps protegidos ficará oculto enquanto eles estiverem bloqueados. As notificações flutuantes também serão desativadas.</string>
+    <string name="app_lock_notifications_disabled_summary">Proteja ao menos um app para usar esta opção.</string>
+    <string name="app_lock_footer_text">As bolhas serão fechadas automaticamente ao fim do tempo limite.</string>
+    <string name="adaptive_battery_switch_title">Usar Bateria Adaptável</string>
+    <string name="app_list_loading">Carregando apps…</string>
+    <string name="app_list_search">Pesquisar</string>
+    <string name="app_list_search_apps">Pesquisar apps</string>
+    <string name="auto_hbm_enabled_summary">Ativar automaticamente o modo de alto brilho sob luz solar intensa. Isso aumenta o consumo de bateria.</string>
+    <string name="auto_hbm_enabled_title">Modo de alto brilho automático</string>
+    <string name="auto_hbm_lux_off_summary">Nível de luz ambiente abaixo do qual o modo de alto brilho será desativado.</string>
+    <string name="auto_hbm_lux_off_title">Limite de desativação do modo de alto brilho</string>
+    <string name="auto_hbm_lux_on_summary">Nível de luz ambiente a partir do qual o modo de alto brilho será ativado.</string>
+    <string name="auto_hbm_lux_on_title">Limite de ativação do modo de alto brilho</string>
+    <string name="basic_battery_saver_summary">Limita efeitos visuais e atividades em segundo plano. Ativa o tema escuro, se ele ainda não estiver ativado.</string>
+    <string name="basic_battery_saver_title">Economia de bateria padrão</string>
+    <string name="battery_saver_refresh_rate_disabled_summary">A taxa extrema de atualização está ativada.</string>
+    <string name="battery_saver_refresh_rate_summary">Usar a taxa de 60 Hz para economizar bateria quando a Economia de bateria estiver ativada.</string>
+    <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
+    <string name="battery_saver_reminder_category">Lembretes</string>
+    <string name="battery_saver_reminder_switch_summary">Receber lembretes quando a bateria estiver fraca.</string>
+    <string name="battery_saver_reminder_switch_title">Lembretes da Economia de bateria</string>
+    <string name="battery_saver_schedule_category">Programação</string>
+    <string name="battery_saver_schedule_switch_summary">Ativar a Economia de bateria quando a carga atingir o nível definido.</string>
+    <string name="battery_saver_schedule_switch_title">Ativar com base no nível da bateria</string>
+    <string name="battery_schedule_summary">Gerenciar quando a Economia de bateria será ativada.</string>
+    <string name="battery_schedule_title">Programação e lembretes</string>
+    <string name="billing_cycle_hours_left">{count, plural, =1 {# hora restante} other {# horas restantes}}</string>
+    <string name="billing_cycle_less_than_one_hour_left">Menos de 1 hora restante</string>
+    <string name="billing_cycle_type_daily">Diário</string>
+    <string name="billing_cycle_type_monthly">Mensal</string>
+    <string name="billing_cycle_type_title">Tipo de ciclo de uso de dados móveis</string>
+    <string name="billing_cycle_type_weekly">Semanal</string>
+    <string name="cinema_engine_mode_title">Imagem Cinema</string>
+    <string name="clear_search_query_description">Limpar pesquisa</string>
+    <string name="color_contrast_title">Contraste</string>
+    <string name="color_hue_title">Matiz</string>
+    <string name="color_mode_advanced_category">Ajustes avançados</string>
+    <string name="color_mode_balance_blue">Intensidade do azul</string>
+    <string name="color_mode_balance_green">Intensidade do verde</string>
+    <string name="color_mode_balance_red">Intensidade do vermelho</string>
+    <string name="color_picture_brightness_title">Brilho da imagem</string>
+    <string name="color_saturation_title">Saturação</string>
+    <string name="color_temperature_end_label">Fria</string>
+    <string name="color_temperature_start_label">Quente</string>
+    <string name="color_temperature_title">Temperatura da cor</string>
+    <string name="confirm_before_enable_title">Continuar e ativar?</string>
+    <string name="cycle_type_daily_sub">Hora do dia:</string>
+    <string name="cycle_type_daily_title">Hora de redefinição do ciclo</string>
+    <string name="cycle_type_weekly_sub">Dia da semana:\n1 = segunda-feira</string>
+    <string name="cycle_type_weekly_title">Dia de redefinição do ciclo</string>
+    <string name="dark_theme_per_app_summary">Escolha quais apps manterão a própria aparência em vez de usar o tema escuro ampliado.</string>
+    <string name="dark_theme_per_app_title">Exceções ao tema escuro ampliado</string>
+    <string name="display_engine_category">Mecanismo de imagem</string>
+    <string name="display_engine_default">Padrão</string>
+    <string name="display_engine_mode_footer_text">Inspirado nas tecnologias Bravia e X-Reality da Sony, este recurso oferece o modo Vivid, com mais brilho e saturação; o modo X-Reality, que aprimora os detalhes e a precisão das cores; e o modo Triluminos, conhecido pela reprodução precisa de cores.</string>
+    <string name="display_engine_mode_title">Modo de imagem Reality</string>
+    <string name="double_tap_power_torch_action_title">Lanterna</string>
+    <string name="double_tap_title">Toque duplo</string>
+    <string name="doze_double_tap_summary">Mostrar as notificações com um toque duplo.</string>
+    <string name="doze_double_tap_title">Toque duas vezes para verificar o telefone</string>
+    <string name="doze_gesture_vibrate_summary">Vibrar quando este gesto for acionado.</string>
+    <string name="doze_gesture_vibrate_title">Feedback tátil</string>
+    <string name="extreme_battery_saver_summary">Inclui todas as alterações acima. Também pausa apps não essenciais e suas notificações.</string>
+    <string name="extreme_battery_saver_title">Economia de bateria extrema</string>
+    <string name="extreme_refresh_rate_summary">Forçar a maior taxa de atualização para todos os apps.</string>
+    <string name="extreme_refresh_rate_title">Taxa extrema de atualização</string>
+    <string name="extreme_refresh_rate_warning">O sistema sempre usará a maior taxa de atualização, ignorando a escolha do usuário e a preferência dos apps. Aplicativos que exigem uma taxa específica podem funcionar de forma anormal.</string>
+    <string name="filter_hidden_apps">Apps ocultos</string>
+    <string name="gesture_navbar_auto_hide_summary">Ocultar a dica de navegação após um breve período de inatividade.</string>
+    <string name="gesture_navbar_auto_hide_title">Ocultar a dica de navegação automaticamente</string>
+    <string name="hidden">Oculto</string>
+    <string name="hide">Ocultar</string>
+    <string name="hide_app">Ocultar app</string>
+    <string name="hide_app_desc">Ao ocultar um app, ele deixa de ficar visível para o Android e outros apps, que podem deixar de funcionar como esperado. Os dados do app são mantidos, mas ele é desativado e ocultado no dispositivo.</string>
+    <string name="keywords_color_balance">cor, equilíbrio de cores, correção de cores, vermelho, verde, azul, LiveDisplay</string>
+    <string name="keywords_color_saturation">cor, saturação, LiveDisplay</string>
+    <string name="language_picker_page">Seletor de idioma</string>
+    <string name="low_battery_dialogs_summary">Exibir avisos de bateria fraca e diálogos de desligamento.</string>
+    <string name="low_battery_dialogs_title">Alertas de bateria fraca</string>
+    <string name="lunaris_battery_type_title">Bateria</string>
+    <string name="lunaris_build_type">Tipo de build</string>
+    <string name="lunaris_device_title">Dispositivo</string>
+    <string name="lunaris_processor_code_title">Processador</string>
+    <string name="lunaris_screen_title">Tela</string>
+    <string name="lunaris_version">Versão Lunaris-AOSP</string>
+    <string name="mirroring_confirmation_disable_menu_item">Desativar confirmação de espelhamento</string>
+    <string name="multi_audio_focus_summary">Permitir que vários apps reproduzam áudio ao mesmo tempo.</string>
+    <string name="multi_audio_focus_title">Foco de áudio múltiplo</string>
+    <string name="natural_engine_mode_title">Imagem Natural</string>
+    <string name="navbar_long_press_gesture_summary">Toque e segure o botão Home ou a alça de navegação para pesquisar usando o conteúdo exibido na tela.</string>
+    <string name="navbar_long_press_gesture_title">Pressionar e segurar para pesquisar</string>
+    <string name="night_display_activation_off_custom">Desativar até %1$s</string>
+    <string name="night_display_activation_off_manual">Desativar agora</string>
+    <string name="night_display_activation_off_twilight">Desativar até o pôr do sol</string>
+    <string name="night_display_activation_on_custom">Ativar até %1$s</string>
+    <string name="night_display_activation_on_manual">Ativar agora</string>
+    <string name="night_display_activation_on_twilight">Ativar até o nascer do sol</string>
+    <string name="one_time_data_limit_notify_only">Apenas notificar</string>
+    <string name="one_time_data_limit_size">Tamanho</string>
+    <string name="one_time_data_limit_title">Limite de dados único</string>
+    <string name="one_time_data_limit_turn_off_notify">Desativar e notificar</string>
+    <string name="one_time_data_limit_when_exceeded">Ao atingir o limite</string>
+    <string name="override_mock_location_summary">Quando ativado, os apps não conseguem detectar que a localização é simulada.</string>
+    <string name="override_mock_location_title">Ignorar restrição de localização simulada</string>
+    <string name="per_app_config_empty_text">Nenhum app instalado oferece suporte às configurações atuais.</string>
+    <string name="per_app_refresh_rate_default">Seguir o sistema</string>
+    <string name="per_app_refresh_rate_summary">Configurar a taxa de atualização individualmente para cada app.</string>
+    <string name="per_app_refresh_rate_title">Taxa de atualização por app</string>
+    <string name="reading_engine_mode_title">Conforto visual (modo leitura)</string>
+    <string name="screen_refresh_rate_title">Taxa de atualização da tela</string>
+    <string name="search_all_entrypoints_enabled_summary">Usar o Circle to Search em vez do Google Lens ao pressionar e segurar a barra de navegação.</string>
+    <string name="search_all_entrypoints_enabled_title">Circle to Search</string>
+    <string name="search_region">Pesquisar regiões</string>
+    <string name="search_region_page">Página de pesquisa de regiões</string>
+    <string name="show_back_gesture_background_summary">Exibir um fundo ao realizar o gesto Voltar.</string>
+    <string name="show_back_gesture_background_title">Exibir fundo no gesto Voltar</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Desativa o Bluetooth quando o modo Sono é ativado.</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Desativar Bluetooth</string>
+    <string name="sleep_mode_cellular_toggle_summary">Desativa os dados móveis quando o modo Sono é ativado.</string>
+    <string name="sleep_mode_cellular_toggle_title">Desativar dados móveis</string>
+    <string name="sleep_mode_display_text">O modo Sono pode desativar alguns serviços para economizar bateria e silenciar o telefone enquanto você dorme.</string>
+    <string name="sleep_mode_location_toggle_summary">Desativa a localização quando o modo Sono é ativado.</string>
+    <string name="sleep_mode_location_toggle_title">Desativar localização</string>
+    <string name="sleep_mode_ringer_dnd_title">Não perturbe</string>
+    <string name="sleep_mode_ringer_off_title">Não alterar</string>
+    <string name="sleep_mode_ringer_silent_title">Silencioso</string>
+    <string name="sleep_mode_ringer_title">Modo de toque</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrar</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Ativar de um horário definido até o nascer do sol</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Ativar do pôr do sol até um horário definido</string>
+    <string name="sleep_mode_schedule_sunrise">Nascer do sol</string>
+    <string name="sleep_mode_schedule_sunset">Pôr do sol</string>
+    <string name="sleep_mode_sensors_toggle_summary">Desativa os sensores quando o modo Sono é ativado.</string>
+    <string name="sleep_mode_sensors_toggle_title">Desativar sensores</string>
+    <string name="sleep_mode_summary_off">Desativado / %1$s</string>
+    <string name="sleep_mode_summary_on">Ativado / %1$s</string>
+    <string name="sleep_mode_title">Modo Sono</string>
+    <string name="sleep_mode_toggles_title">Controles</string>
+    <string name="sleep_mode_wifi_toggle_summary">Desativa o Wi-Fi quando o modo Sono é ativado.</string>
+    <string name="sleep_mode_wifi_toggle_title">Desativar Wi-Fi</string>
+    <string name="smart_5g_summary">Alterna automaticamente entre 5G e 4G para reduzir o consumo de bateria.</string>
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_battery_a11y_collapse_label">Recolher, Bateria Adaptável</string>
+    <string name="smart_battery_a11y_expand_label">Expandir, Bateria Adaptável</string>
+    <string name="triluminos_engine_mode_title">Imagem Triluminos</string>
+    <string name="unhide">Mostrar</string>
+    <string name="unhide_app">Mostrar app</string>
+    <string name="unhide_app_desc">Ao mostrar o app novamente, ele voltará a ficar visível para o Android e outros apps.</string>
+    <string name="unified_battery_saver_page_intro">Economize energia para prolongar a duração da bateria entre recargas.</string>
+    <string name="use_gpu_for_screen_composition_summary">Selecione os apps que devem desativar as sobreposições de hardware durante o uso.</string>
+    <string name="use_gpu_for_screen_composition_title">Usar GPU na composição da tela</string>
+    <string name="vivid_engine_mode_title">Imagem vívida</string>
+    <string name="wallpaper_zoom_summary">Desative para exibir o papel de parede sem zoom adicional.</string>
+    <string name="wallpaper_zoom_title">Zoom do papel de parede</string>
+    <string name="x_reality_engine_mode_title">Modo X-Reality</string>
+</resources>

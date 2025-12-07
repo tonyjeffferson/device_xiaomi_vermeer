@@ -1,3 +1,8 @@
 # Xiaomi
 ro.product.mod_device=vermeer_global
 ro.paranoid.maintainer=Tony
+log.tag.libsensor-displayalgo=ERROR
+log.tag.displayalgo=ERROR
+log.tag.sensors=ERROR
+log.tag.LightSensor=ERROR
+log.tag.SensorService=ERROR

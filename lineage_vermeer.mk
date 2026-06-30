@@ -16,15 +16,21 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Lunaris Flags
 TARGET_ENABLE_BLUR := true
-WITH_GMS := true
-TARGET_USES_CORE_GAPPS := true
 TARGET_CUSTOM_UDFPS := true
 WITH_BCR := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_OPTIMIZED_DEXOPT := true
 PRODUCT_NO_CAMERA := false
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 TARGET_DISABLE_MATLOG := true
+
+#GMS
+WITH_GMS := true
+WITH_GMS_COMMS_SUITE := false
+WITH_PIXEL_LAUNCHER := false
+TARGET_USE_MAPS := false
+TARGET_USE_FILES := false
+TARGET_USE_GPHOTOS := false
+TARGET_USE_WALLPAPERS := false
 
 PRODUCT_DEVICE := vermeer
 PRODUCT_NAME := lineage_vermeer

@@ -1,0 +1,3 @@
+# Allow the Lineage charging-control HAL to manage the Qualcomm input suspend node.
+allow hal_lineage_health_default vendor_sysfs_battery_supply:dir r_dir_perms;
+allow hal_lineage_health_default vendor_sysfs_battery_supply:file rw_file_perms;

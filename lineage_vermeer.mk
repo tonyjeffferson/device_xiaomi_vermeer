@@ -23,6 +23,13 @@ TARGET_OPTIMIZED_DEXOPT := true
 PRODUCT_NO_CAMERA := false
 TARGET_DISABLE_MATLOG := false
 
+# Charging control: suspend battery input while powering the device from USB.
+BYPASS_CHARGE_SUPPORTED := true
+$(call soong_config_set_bool,lineage_health,charging_control_supports_bypass,true)
+$(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/qcom-battery/input_suspend)
+$(call soong_config_set,lineage_health,charging_control_charging_enabled,0)
+$(call soong_config_set,lineage_health,charging_control_charging_disabled,1)
+
 #GMS
 WITH_GMS := true
 WITH_GMS_COMMS_SUITE := false

@@ -26,6 +26,9 @@
     <!-- The default height of the status bar used in {@link SystemBarUtils#getStatusBarHeight} to
          calculate the status bar height. -->
     <dimen name="status_bar_height_default">@dimen/status_bar_height</dimen>
+
+    <!-- Generic rounded radius used by SystemUI edge-light frame rendering. -->
+    <dimen name="rounded_corner_radius">140.0px</dimen>
     
     <!-- Radius of the software rounded corners at the top of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->

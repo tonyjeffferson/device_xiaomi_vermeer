@@ -30,12 +30,10 @@
     <string name="app_list_loading">Carregando apps…</string>
     <string name="app_list_search">Pesquisar</string>
     <string name="app_list_search_apps">Pesquisar apps</string>
-    <string name="auto_hbm_enabled_summary">Ativar automaticamente o modo de alto brilho sob luz solar intensa. Isso aumenta o consumo de bateria.</string>
-    <string name="auto_hbm_enabled_title">Modo de alto brilho automático</string>
-    <string name="auto_hbm_lux_off_summary">Nível de luz ambiente abaixo do qual o modo de alto brilho será desativado.</string>
-    <string name="auto_hbm_lux_off_title">Limite de desativação do modo de alto brilho</string>
-    <string name="auto_hbm_lux_on_summary">Nível de luz ambiente a partir do qual o modo de alto brilho será ativado.</string>
-    <string name="auto_hbm_lux_on_title">Limite de ativação do modo de alto brilho</string>
+    <string name="auto_hbm_enabled_summary">Gerenciado automaticamente pelo sistema de tela.</string>
+    <string name="auto_hbm_enabled_title">Modo de alto brilho</string>
+    <string name="auto_hbm_status_title">Automático</string>
+    <string name="auto_hbm_status_summary">O brilho extra é ativado automaticamente quando o brilho da tela e a luz ambiente atingem os limites do display.</string>
     <string name="basic_battery_saver_summary">Limita efeitos visuais e atividades em segundo plano. Ativa o tema escuro, se ele ainda não estiver ativado.</string>
     <string name="basic_battery_saver_title">Economia de bateria padrão</string>
     <string name="battery_saver_refresh_rate_disabled_summary">A taxa extrema de atualização está ativada.</string>

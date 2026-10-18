@@ -11,6 +11,10 @@ $(call inherit-product, device/xiaomi/sm8550-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/vermeer/vermeer-vendor.mk)
 
+# Device diagnostics
+PRODUCT_PACKAGES += \
+    AxDiagnostics
+
 # Audio
 PRODUCT_PACKAGES += \
     firmware_aw_cali.bin_symlink

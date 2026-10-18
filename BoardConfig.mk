@@ -33,9 +33,6 @@ BOOT_KERNEL_MODULES += \
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := vermeer
 
-# NotGameTurbo
-include packages/apps/NotGameTurbo/BoardConfig.mk
-
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop

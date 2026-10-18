@@ -37,9 +37,6 @@ PRODUCT_PACKAGES += \
     WifiResVermeerPOCO \
     WifiResVermeerRedmi
 
-# NotGameTurbo
-$(call inherit-product, packages/apps/NotGameTurbo/notgameturbo.mk)
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)

@@ -39,6 +39,9 @@ TARGET_USE_FILES := false
 TARGET_USE_GPHOTOS := false
 TARGET_USE_WALLPAPERS := false
 
+# Allow ADB connections in recovery without requiring host-key authorization.
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure.recovery=0
+
 PRODUCT_DEVICE := vermeer
 PRODUCT_NAME := lineage_vermeer
 PRODUCT_BRAND := POCO

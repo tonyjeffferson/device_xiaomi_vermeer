@@ -3,3 +3,6 @@ persist.vendor.fingerprint.sensor_location=720|2882|124
 
 # System properties
 ro.product.property_source_order=odm,vendor,product,system_ext,system
+
+# Keep high-frequency vendor display-algorithm samples out of logcat.
+log.tag.libsensor-displayalgo=W

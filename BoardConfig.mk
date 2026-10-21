@@ -12,6 +12,10 @@ include vendor/xiaomi/vermeer/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/vermeer
 
+# Enable root ADB in recovery for post-boot diagnostics without changing the
+# debuggable state of the installed Android system.
+BOARD_RECOVERY_IMAGE_PREPARE = $(DEVICE_PATH)/prepare_recovery_image.sh $(TARGET_RECOVERY_ROOT_OUT)
+
 # Display
 TARGET_SCREEN_DENSITY := 530
 

@@ -3,4 +3,8 @@
     <string name="lunaris_processor_code_message">Snapdragon® 8 Gen 2</string>
     <string name="lunaris_battery_type_message">Li-Po 5000 mAh</string>
     <string name="lunaris_screen_message">Amoled 6.67" 3200x1440 120 Hz</string>
+    <string name="auto_hbm_enabled_title">High brightness mode</string>
+    <string name="auto_hbm_enabled_summary">Managed automatically by the display system</string>
+    <string name="auto_hbm_status_title">Automatic</string>
+    <string name="auto_hbm_status_summary">High brightness is enabled automatically when the screen brightness and ambient light meet the display limits.</string>
 </resources>

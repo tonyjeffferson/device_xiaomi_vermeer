@@ -16,6 +16,10 @@
 -->
 
 <resources>
+    <string name="auto_hbm_enabled_summary">Gerenciado automaticamente pelo sistema de tela.</string>
+    <string name="auto_hbm_enabled_title">Modo de alto brilho</string>
+    <string name="auto_hbm_status_title">Automático</string>
+    <string name="auto_hbm_status_summary">O brilho extra é ativado automaticamente quando o brilho da tela e a luz ambiente atingem os limites do display.</string>
     <string name="wifi_do_not_validate_eap_server_warning">Nenhum certificado foi especificado. Sua conexão pode não ser segura.</string>
     <string name="pulse_on_new_tracks_title">Aviso de música na Tela Ambiente</string>
     <string name="pulse_on_new_tracks_summary">Mostrar informações da música na Tela Ambiente quando a faixa mudar</string>
@@ -30,10 +34,6 @@
     <string name="app_list_loading">Carregando apps…</string>
     <string name="app_list_search">Pesquisar</string>
     <string name="app_list_search_apps">Pesquisar apps</string>
-    <string name="auto_hbm_enabled_summary">Gerenciado automaticamente pelo sistema de tela.</string>
-    <string name="auto_hbm_enabled_title">Modo de alto brilho</string>
-    <string name="auto_hbm_status_title">Automático</string>
-    <string name="auto_hbm_status_summary">O brilho extra é ativado automaticamente quando o brilho da tela e a luz ambiente atingem os limites do display.</string>
     <string name="basic_battery_saver_summary">Limita efeitos visuais e atividades em segundo plano. Ativa o tema escuro, se ele ainda não estiver ativado.</string>
     <string name="basic_battery_saver_title">Economia de bateria padrão</string>
     <string name="battery_saver_refresh_rate_disabled_summary">A taxa extrema de atualização está ativada.</string>

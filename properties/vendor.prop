@@ -5,6 +5,10 @@ persist.vendor.fingerprint.sensor_location=720|2882|124
 ro.product.property_source_order=odm,vendor,product,system_ext,system
 ro.soc.manufacturer=Qualcomm
 
+# HDR display support
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.use_color_management=true
+
 # Keep high-frequency vendor display-algorithm samples out of logcat.
 log.tag.libsensor-displayalgo=W
 

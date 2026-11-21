@@ -5,7 +5,12 @@
 #
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+# This platform has no 32-bit support (ro.*.product.cpu.abilist32 is empty and
+# no 32-bit libraries are built), so use the 64-bit-only core. Inheriting
+# core_64_bit.mk would advertise ro.zygote=zygote64_32; on a GSI that makes
+# init start a 32-bit zygote_secondary which aborts because abilist32 is empty,
+# and its "onrestart restart zygote" takes the whole boot down with it.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from vermeer device

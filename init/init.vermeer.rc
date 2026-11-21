@@ -3,4 +3,8 @@ service citsensor-hal-2-0 /odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-
     user system
     group system input
     override
-    task_profiles ServiceCapacityLow
+    # Keep the under-display light-sensor compensation on the foreground cpuset.
+    # Running it on the system-background cpuset (ServiceCapacityLow) starves the
+    # compensation thread during the unlock animation, so the corrected ALS value
+    # stops updating and auto-brightness freezes until a full screen+AOD off cycle.
+    task_profiles ProcessCapacityNormal

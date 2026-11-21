@@ -7,3 +7,8 @@ ro.soc.manufacturer=Qualcomm
 
 # Keep high-frequency vendor display-algorithm samples out of logcat.
 log.tag.libsensor-displayalgo=W
+
+# Enable framebuffer-based compensation for the under-display light sensor,
+# so the screen's own light (e.g. white content over the sensor area) is
+# subtracted from the ALS reading instead of feeding back into auto-brightness.
+persist.vendor.sensors.used.framebuffer=1

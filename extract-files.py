@@ -57,6 +57,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libprocessgroup_shim.so'),
     'odm/etc/sensors/config/sm8550_tcs3720_fb.json': blob_fixup()
         .regex_replace(r'(?s)("\\.als":.*?"is_dri":\\s*\\{[^}]*?"data":\\s*")0(")', r'\\g<1>1\\g<2>'),
+    'odm/etc/sensors/config/lightSensorConfig.json': blob_fixup()
+        .regex_replace('889,161', '892,154'),
     ('odm/lib64/libalLDC.so',
      'odm/lib64/libalAILDC.so'): blob_fixup()
         .clear_symbol_version('AHardwareBuffer_allocate')
